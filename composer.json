@@ -1,0 +1,27 @@
+{
+    "name": "pith-front/pith-pack-fa-icons",
+    "description": "Pack FontAwesome 4 & the free version of 6 for Pith",
+    "authors": [
+        {
+            "name": "Ian Maurmann",
+            "role": "Developer"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^8.2",
+        "ext-gd": "*",
+        "ext-json": "*",
+        "ext-pdo": "*",
+        "ext-readline": "*",
+        "pith/base": "^0.2",
+        "pith/workflow-elements": "^0.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "PithFront\\PithPackFaIcons\\": [
+                "src/fa-resource-pack/"
+            ]
+        }
+    }
+}
