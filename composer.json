@@ -14,8 +14,8 @@
         "ext-json": "*",
         "ext-pdo": "*",
         "ext-readline": "*",
-        "pith/base": "^0.2",
-        "pith/workflow-elements": "^0.3"
+        "pith/base": ">=0.2",
+        "pith/workflow-elements": ">=0.3"
     },
     "autoload": {
         "psr-4": {
